@@ -1,0 +1,29 @@
+{
+  "name": "video-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "DEBUG=\"VideoGenerator*\" gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.6",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "gulp": "4.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-util": "^3.0.8"
+  }
+}

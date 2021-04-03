@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Deniz Butik</title>
+
+    <!------------Google Font-------------->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--------------Bootstrap--------------->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="_site/css/main.css" />
+
+    <!-------------Swiper---------------------------->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER-TOP -->
+    <header class="header-top">
+      <div class="container">
+        <div class="row general-content">
+          <div class="left-content">
+            <h2>0850 888 0 369 (DNZ)</h2>
+            <span>-Destek Hattı (10:00 - 19:00)</span>
+          </div>
+          <div class="right-content">
+            <ul class="item-list">
+              <li>
+                <a href="#" class="item"
+                  ><i class="fas fa-life-ring"></i>Yardım</a
+                >
+              </li>
+              <li>
+                <a href="#" class="item"
+                  ><i class="fas fa-indent"></i>Kolay İade</a
+                >
+              </li>
+              <li>
+                <a href="#" class="item"
+                  ><i class="fas fa-plane-departure"></i>Sipariş Takip</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER-CONTENT -->
+    <header class="header-content">
+      <div class="container">
+        <div class="logo">
+          <a href="#">denizbutik</a>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Ürün veya Kategori ara.."
+          />
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="right-content">
+          <div class="welcome">
+            <i class="fas fa-user-plus"></i>
+            <ul>
+              <li class="member-login">
+                <a href="#">Üye Girişi</a>
+              </li>
+              <li class="sign-up">
+                <a href="#">Üye Ol</a>
+              </li>
+            </ul>
+          </div>
+          <div class="favorites">
+            <a href="#"><i class="fas fa-heart"></i>Favorilerim</a>
+          </div>
+          <div class="shopping">
+            <a href="#"><i class="fas fa-shopping-bag"></i>Sepetim</a>
+            <span>0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAV -->
+    <div class="navigation">
+      <div class="container">
+        <ul class="navU1">
+          <li>
+            <a href="#" class="title-product">YENİ GELENLER</a>
+          </li>
+          <li>
+            <a href="#" class="title-product">ÇOK SATANLAR</a>
+          </li>
+          <!-- DROPDOWN MENU -->
+          <li class="ulVar">
+            <a href="#" class="title-product">ELBİSELER</a>
+            <div class="altMenu">
+              <div class="altMenuler">
+                <div class="altMenuSag">
+                  <div class="altMenuSagEditor">
+                    <div class="menuHtml">
+                      <div class="row">
+                        <div class="col-2">
+                          <a href="#" class="headTitle">UZUNLUĞA GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category">Kısa Elbiseler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Midi Elbiseler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Uzun Elbiseler</a>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <a href="#" class="headTitle">FİYATA GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category"
+                              >Uygun Fiyatlı Elbiseler</a
+                            >
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category"
+                              >75 TL Altı Elbiseler</a
+                            >
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category"
+                              >150 TL Altı Elbiseler</a
+                            >
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <a href="#" class="headTitle">STİLE GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category">Günlük Elbiseler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Ofis Elbiseleri</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Davet Elbiseleri</a>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <a href="#" class="headTitle">RENGE GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category">Siyah Abiyeler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Kırmızı Abiyeler</a>
+                          </div>
+                        </div>
+                        <div class="col-4 align-self-center">
+                          <div class="row">
+                            <div class="col-6">
+                              <a
+                                href="https://www.denizbutik.com/elbise-modelleri?max=100"
+                                style="
+                                  background-image: url('https://www.denizbutik.com/Uploads/Images/indirimkat8.jpg');
+                                "
+                                class="dropDownBanner"
+                              >
+                                <span>İNDİRİMDEKİLER</span>
+                              </a>
+                            </div>
+                            <div class="col-6">
+                              <a
+                                href="https://www.denizbutik.com/elbise-modelleri"
+                                style="
+                                  background-image: url('https://www.denizbutik.com/Uploads/Images/coksatankat8.jpg');
+                                "
+                                class="dropDownBanner"
+                              >
+                                <span>ÇOK SATANLAR</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- DROPDOWN MENU SON -->
+
+          <!--  -->
+
+          <!-- DROPDOWN MENU -->
+          <li class="ulVar">
+            <a href="#" class="title-product">ABİYELER</a>
+            <div class="altMenu">
+              <div class="altMenuler">
+                <div class="altMenuSag">
+                  <div class="altMenuSagEditor">
+                    <div class="menuHtml">
+                      <div class="row">
+                        <div class="col-2">
+                          <a href="#" class="headTitle">UZUNLUĞA GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category">Kısa Elbiseler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Midi Elbiseler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Uzun Elbiseler</a>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <a href="#" class="headTitle">FİYATA GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category"
+                              >Uygun Fiyatlı Elbiseler</a
+                            >
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category"
+                              >75 TL Altı Elbiseler</a
+                            >
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category"
+                              >150 TL Altı Elbiseler</a
+                            >
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <a href="#" class="headTitle">STİLE GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category">Günlük Elbiseler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Ofis Elbiseleri</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Davet Elbiseleri</a>
+                          </div>
+                        </div>
+                        <div class="col-2">
+                          <a href="#" class="headTitle">RENGE GÖRE</a>
+                          <div class="box">
+                            <a href="#" class="category">Siyah Abiyeler</a>
+                          </div>
+                          <div class="box">
+                            <a href="#" class="category">Kırmızı Abiyeler</a>
+                          </div>
+                        </div>
+                        <div class="col-4 align-self-center">
+                          <div class="row">
+                            <div class="col-6">
+                              <a
+                                href="https://www.denizbutik.com/elbise-modelleri?max=100"
+                                style="
+                                  background-image: url('https://www.denizbutik.com/Uploads/Images/uygunfiyatkat8.jpg');
+                                "
+                                class="dropDownBanner"
+                              >
+                                <span>UYGUN FİYAT</span>
+                              </a>
+                            </div>
+                            <div class="col-6">
+                              <a
+                                href="https://www.denizbutik.com/elbise-modelleri"
+                                style="
+                                  background-image: url('https://www.denizbutik.com/Uploads/Images/yeniabiyelerkat8.jpg');
+                                "
+                                class="dropDownBanner"
+                              >
+                                <span>YENİ ABİYELER</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- DROPDOWN MENU SON -->
+          <li>
+            <a href="#" class="title-product">GİYİM</a>
+          </li>
+          <li>
+            <a href="#" class="title-product">AYAKKABI</a>
+          </li>
+          <li>
+            <a href="#" class="title-product">AKSESUAR</a>
+          </li>
+          <li>
+            <a href="#" class="title-product">İNDİRİM</a>
+          </li>
+          <li>
+            <a href="#" class="title-product">BLOG</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- GENERAL-İMAGE -->
+    <section class="general-image">
+      <div class="container">
+        <div class="general-content">
+          <a href="#">
+            <img
+              src="https://img.denizbutik.com/Uploads/Images/sanaozel.png"
+              alt=""
+            />
+            <span>Sana Özel</span>
+          </a>
+        </div>
+        <div class="general-content">
+          <a href="#">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/elbisestory8.png"
+            alt=""
+          />
+          <span>Elbise</span>
+        </a>
+        </div>
+        <div class="general-content">
+          <a href="#">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/gunlukstory8.png"
+            alt=""
+          />
+          <span>Günlük</span>
+        </a>
+        </div>
+        <div class="general-content">
+          <a href="#">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/ceketstory8.png"
+            alt=""
+          />
+          <span>Ceket</span>
+        </a>
+        </div>
+        <div class="general-content">
+          <a href="#">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/abiyestory8.png"
+            alt=""
+          />
+          <span>Abiye</span>
+        </a>
+        </div>
+        <div class="general-content">
+          <a href="#">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/tekrarstoktastory.gif"
+            alt=""
+          />
+          <span>Tekrar Stokta</span>
+        </a>
+        </div>
+        <a href="#">
+        <div class="general-content">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/jeanstory8.png"
+            alt=""
+          />
+          <span>Jean</span>
+        </a>
+        </div>
+        <div class="general-content">
+          <a href="#">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/ofisstory8.png"
+            alt=""
+          />
+          <span>Ofis</span>
+        </a>
+        </div>
+        <div class="general-content">
+          <a href="#">
+          <img
+            src="https://img.denizbutik.com/Uploads/Images/pantolonstory8.png"
+            alt=""
+          />
+          <span>Pantolon</span>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOP-SLİDER -->
+    <section class="top-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-12">
+            <div class="swiper-container-top">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/Yeni-Gelenler-8e84.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/Jean-7f267d7a-6.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/Basic-Parcalar-4195.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/Elbise-Modelleri-5d91.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/gun-boyu-rahatlik-35c0.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/Abiye-Elbise-Modelleri-c2ef.jpg" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/Buyuk-Beden-Kadin-Giyim-76b7.jpg" alt="">
+                  </a>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="top-slider-right">
+              <a href="#">
+                <img src="https://img.denizbutik.com/Uploads/SayfaTasarim/Sayfa2/SANA-OZEL-e8cf.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- MİDDLE-SLİDER-->
+  <section class="middle-slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <div class="top-title">
+          <span>Yeni Gelenler</span>
+          <a href="#">Kategoriye Git</a>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container-mid">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/kalp-desen-gomlek-elbise---bej-4-a38b.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>219,99 TL</span>
+                    <span>199,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Manşetli Tül Uzun Abiye</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/lastikli-palazzo-pantolon---pudra-73de96.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>79,99 TL</span>
+                    <span>59,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Gülücük Nakışlı T-Shirt</h3>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/buyuk-cepli-denim-ceket---mavi-5-4e9b.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>34,99 TL</span>
+                    <span>14,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Küpe - GÜMÜŞ</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/balon-kol-kalin-kemerli-elbise---pudra-4a39-8.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>124,99 TL</span>
+                    <span>104,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Önlük Yaka Gömlek</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/kisa-topuk-cilt-stiletto---pudra-1d8a27.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>154,99 TL</span>
+                    <span>134,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Mini Benekli Şifon Elbise</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/mansetli-tul-uzun-abiye---pudra-8d7-af.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>109,99 TL</span>
+                    <span>79,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Kalp Desen Gömlek Elbise</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/gulucuk-nakisli-tisort---lila-5-4f73.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>109,99 TL</span>
+                    <span>99,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Lastikli Palazzo Pantolon</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/kupe---gumus-adb5.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>149,99 TL</span>
+                    <span>129,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Büyük Cepli Denim Ceket</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/onluk-yaka-gomlek---lila-bf-7bb.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>129,99 TL</span>
+                    <span>109,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Balon Kol Kalın Kemerli</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/UrunResimleri/thumb/mini-benekli-sifon-elbise---lila-fb3-4a.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>159,99 TL</span>
+                    <span>139,99 TL</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Kısa Topuk Cilt Stiletto</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+           <!-- Add Arrows -->
+           <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- BESTSELLER -->
+  <section class="bestseller">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="seller-title">
+            <span>Bu Haftanın Çok Satanları</span>
+            <span>Sezonun en hit parçalarıyla şıklığınızı garantileyin!</span>
+          </div>
+          <div class="general-clothing">
+          <a href="#" class="clothing">
+            <img src="https://www.denizbutik.com/Uploads/Images/takimcoksatan8.jpg" alt="">
+            <div class="product-title">
+            <h3>TAKIM</h3>
+            <span>RAHATLA</span>
+          </div>
+          </a>
+          <a href="#" class="clothing">
+            <img src="https://www.denizbutik.com/Uploads/Images/bluzcoksatan8.jpg" alt="">
+            <div class="product-title">
+            <h3>BLUZ</h3>
+            <span>İLHAM AL</span>
+          </div>
+          </a>
+          <a href="#" class="clothing">
+            <img src="https://www.denizbutik.com/Uploads/Images/gomlekcoksatan8.jpg" alt="">
+            <div class="product-title">
+            <h3>GÖMLEK</h3>
+            <span>ÖNE ÇIKANLAR</span>
+          </div>
+          </a>
+          <a href="#" class="clothing">
+            <img src="https://www.denizbutik.com/Uploads/Images/tulumcoksatan8.jpg" alt="">
+            <div class="product-title">
+            <h3>TULUM</h3>
+            <span>ÇOK SATANLAR</span>
+          </div>
+          </a>
+          <a href="#" class="clothing">
+            <img src="https://www.denizbutik.com/Uploads/Images/bbedencoksatan8.jpg" alt="">
+            <div class="product-title">
+            <h3>BÜYÜK BEDEN</h3>
+            <span>EN ŞIK MODELLER</span>
+          </div>
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMOTİON -->
+  <section class="promotion">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-12">
+          <a href="#" class="promotion-img">
+            <img src="https://www.denizbutik.com/Uploads/EditorUploads/hellowearedenizbutik.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- STORY-PAGE -->
+  <section class="story-page">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="seller-title">
+            <span>Deniz Butik Story</span>
+            <span>Güzel kombinlerini gülümseyerek tamamlamayı unutma♥</span>
+          </div>
+          <div class="general-clothing">
+          <a href="#" class="clothing">
+            <video width="174" height="261"  autoplay loop>
+              <source src="https://player.vimeo.com/external/516600264.sd.mp4?s=22572a3f8cfec0d5f06a885b6f0b507ed5fa0018&profile_id=165" type="video/mp4">
+            </video>
+            <div class="product-detail">
+              <div class="product-price">
+                <span>124,99 TL</span>
+                <span>104,99 TL</span>
+              </div>
+              <div class="product-title">
+                <h3>Önlük Yaka Gömlek</h3>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="clothing">
+            <video width="174" height="261"  autoplay loop>
+              <source src="https://player.vimeo.com/external/516599662.sd.mp4?s=19f7deffb90dbe7e75c43a3503f92c0343a11a4a&profile_id=165" type="video/mp4">
+            </video>
+            <div class="product-detail">
+              <div class="product-price">
+                <span>124,99 TL</span>
+                <span>104,99 TL</span>
+              </div>
+              <div class="product-title">
+                <h3>Önlük Yaka Gömlek</h3>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="clothing">
+            <video width="174" height="261"  autoplay loop>
+              <source src="https://player.vimeo.com/external/516600618.sd.mp4?s=6340bbe7c37fc4a68a17f077c7be76f2c1e1c43a&profile_id=165" type="video/mp4">
+            </video>
+            <div class="product-detail">
+              <div class="product-price">
+                <span>124,99 TL</span>
+                <span>104,99 TL</span>
+              </div>
+              <div class="product-title">
+                <h3>Önlük Yaka Gömlek</h3>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="clothing">
+            <video width="174" height="261"  autoplay loop>
+              <source src="https://player.vimeo.com/external/516600427.sd.mp4?s=661b1549d7c902bd1e1ed3324b1cbbafe801dcf4&profile_id=165" type="video/mp4">
+            </video>
+            <div class="product-detail">
+              <div class="product-price">
+                <span>124,99 TL</span>
+                <span>104,99 TL</span>
+              </div>
+              <div class="product-title">
+                <h3>Önlük Yaka Gömlek</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="more-list">
+          <a href="#">Tümünü Listele</a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="story-image">
+          <a href="#">
+            <img src="https://img.denizbutik.com/Uploads/Images/jeanblok.jpg" alt="">
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM-SLİDER-->
+  <section class="bottom-slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <div class="top-title">
+          <img src="https://www.denizbutik.com/Uploads/Images/edit.png" alt="">
+          <p>Yeni sezon trendleri, ünlü tarzları, kendin yap, özel koleksiyonlar ve çok daha fazlası editorial içeriklerimizde. Blok yazılarımız, özel çekimlerimiz ve sizin için hazırladığımız son video içeriklerimizi inceleyin.</p>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container-bottom">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/Images/kiskombinleriv3.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>Kış Kombin Önerileri</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>HEMEN İZLE</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/Images/konseregittik.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>Takipçilerimizle Konsere Gittik</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Gülücük Nakışlı T-Shirt</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/Images/sezontrendkombingif.gif" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>Yeni Sezonun En Trend Kombinleri</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Küpe - GÜMÜŞ</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/Images/wedding.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>Deniz Butik Wedding Koleksiyonu</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Önlük Yaka Gömlek</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="general-image">
+                <img src="https://img.denizbutik.com/Uploads/Images/unlubakimsirlari.jpg" alt="">
+                <div class="product-detail">
+                  <div class="product-price">
+                    <span>Ünlülerin Bakım Sırları</span>
+                  </div>
+                  <div class="product-title">
+                    <h3>Mini Benekli Şifon Elbise</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+           <!-- Add Arrows -->
+           <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>
+           <!-- Add Pagination -->
+           <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+
+  <!-- PAYMENT-->
+  <section class="payment">
+    <div class="container">
+      <div class="row">
+        <div class="bank">
+          <img src="https://www.denizbutik.com/customcss/images/bnk1.png" alt="">
+          <img src="https://www.denizbutik.com/customcss/images/bnk2.png" alt="">
+          <img src="https://www.denizbutik.com/customcss/images/bnk3.png" alt="">
+          <img src="https://www.denizbutik.com/customcss/images/bnk4.png" alt="">
+          <img src="https://www.denizbutik.com/customcss/images/bnk5.png" alt="">
+          <img src="https://www.denizbutik.com/customcss/images/bnk6.png" alt="">
+          <img src="https://www.denizbutik.com/customcss/images/bnk7.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6">
+          <div class="general-text">
+            <h3>SİZE NASIL YARDIM EDEBİLİRİZ?</h3>
+            <a href="#">Anasayfa</a>
+            <a href="#">Üyelik</a>
+            <a href="#">Alışveriş</a>
+            <a href="#">Ödeme</a>
+            <a href="#">İptal & İade & Değişim</a>
+            <a href="#">Kargo Takibi</a>
+            <a href="#">Kargo & Teslimat</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="general-text">
+          <h3>ŞİRKETİMİZ</h3>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Mağazalarımız</a>
+            <a href="#">Kurumsal Sorumluluk</a>
+            <a href="#">Gizlilik & Güvenlik</a>
+            <a href="#">Müşteri Hizmetleri</a>
+            <a href="#">Sıkça Sorulan Sorular</a>
+            <a href="#">Bize Ulaşın</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="general-text ss">
+          <div class="follow">
+          <h3>TAKİPTE KAL</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-youtube"></i>Youtube</a>
+            <a href="#"><i class="fab fa-pinterest"></i>Pinterest</a>
+          </div>
+            <div class="app">
+              <h3>UYGULAMALARIMIZ</h3>
+              <a href="#"><i class="fab fa-apple"></i>Apple Store Uygulama</a>
+              <a href="#"><i class="fab fa-android"></i>Android Uyguluma</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-6">
+          <div class="right-footer">
+            <a href="#">
+              <img src="https://www.denizbutik.com/customcss/images/blogdeniz.png" alt="">
+            </a>
+            <h3>DENİZ BUTİK GÜNCELLEMELERİNE KAYDOL</h3>
+            <p>E-Bültene kaydolarak, Deniz Butik'in <a class="link" href="#">Gizlilik Politikası</a>'nın koşullarını kabul etmiş oluyorsunuz ve en yeni koleksiyonlarımızı, kampanyalarımızı ve özel hizmetlerimizi içeren Deniz Butik e-postalarını almayı kabul ediyorsunuz.</p>
+            <div class="send-input">
+            <input type="text" placeholder="E-posta adresinizi yazın...">
+            <button>Gönder</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FOOTER BG & PAYMENT -->
+  <div class="footer-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 d-flex align-items-center justify-content-between">
+          <div class="info">
+            <span>©2020-2021 denizbutik.com - Tüm Hakları Saklıdır.</span>
+          </div>
+          <div class="payment-bottom">
+            <img src="https://www.denizbutik.com/customcss/images/payments2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SCROOL-TOP -->
+  <button onclick="topFunction()" id="myBtn">
+    <a href="#">BAŞA DÖN</a>
+  </button>
+
+
+  </body>
+
+  <script
+    src="https://kit.fontawesome.com/94f4a1de10.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="/src/sass/vendor/vendor2/Jquery3.5.1.min.js"></script>
+
+  <!-------------------Bootstrap Js--------------------->
+
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="/src/js/main.js"></script>
+
+  <!----------------Swiper Js---------------->
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</html>
